@@ -1,0 +1,219 @@
+This is the onitial reading list decided jointly by Kostas, Vivek and Marcos on May 16 2013.
+
+************************* Start of list ****************************
+
+Classic Systems
+=================
+
+   A History and Evaluation of System R
+   http://www.cs.berkeley.edu/%7Ebrewer/cs262/SystemR-comments.pdf
+
+   Michael Stonebraker, Greg Kemnitz: The Postgres Next Generation Database Management System. CACM 34(10): 78-92 (1991)
+   http://dl.acm.org/citation.cfm?id=125262
+
+   K42: building a complete operating system
+   http://dl.acm.org/citation.cfm?id=1217949
+
+   SEDA: An Architecture for Well-Conditioned, Scalable Internet Services
+   http://www.eecs.harvard.edu/~mdw/papers/seda-sosp01.pdf
+
+   A Fast File System for UNIX
+   http://www.cs.berkeley.edu/~brewer/cs262/FFS.pdf
+
+   Rosenblum, Mendel and Ousterhout, John K. (February 1992) - "The Design and Implementation of a Log-Structured File System". ACM Transactions on Computer Systems, Vol. 10 Issue 1. pp26-52.
+   http://www.stanford.edu/~ouster/cgi-bin/papers/lfs.pdf
+
+   Hong-Tai Chou, David J. DeWitt: An Evaluation of Buffer Management Strategies for Relational Database Systems. VLDB 1985: 127-141
+   www.vldb.org/conf/1985/P127.PDF
+
+
+Concurrency Control
+=====================
+
+   Granularity of locks and degrees of consistency in a shared data base
+   http://research.microsoft.com/~Gray/papers/Granularity%20of%20Locks%20and%20Degrees%20of%20Consistency%20RJ%201654.pdf
+
+   Hal Berenson, Phil Bernstein, Jim Gray, Jim Melton, Elizabeth O'Neil, and Patrick O'Neil. 1995. A critique of ANSI SQL isolation levels. In Proceedings of the 1995 ACM SIGMOD international conference on Management of data (SIGMOD '95), Michael Carey and Donovan Schneider (Eds.). ACM, New York, NY, USA, 1-10. DOI=10.1145/223784.223785 
+   http://doi.acm.org/10.1145/223784.223785
+
+   H. T. Kung, John T. Robinson: On Optimistic Methods for Concurrency Control. TODS 6(2): 213-226(1981)
+   http://dl.acm.org/citation.cfm?id=319567
+
+   Rakesh Agrawal, Michael J. Carey, Miron Livny: Models for Studying Concurrency Control Performance: Alternatives and Implications. SIGMOD Conference 1985: 108-121
+   http://dl.acm.org/citation.cfm?id=318909
+
+   The End of an Architectural Era (It's Time for a Complete Rewrite)
+   http://cs.brown.edu/courses/cs227/papers/stonebraker.pdf
+
+   OLTP Through the Looking Glass, and What We Found There
+   http://cs.brown.edu/courses/cs227/papers/looking-glass.pdf
+
+   Concurrency Control in Distributed Database Systems
+   http://www.cs.berkeley.edu/~brewer/cs262/concurrency-distributed-databases.pdf
+
+   Matthias Brantner, Daniela Florescu, David Graf, Donald Kossmann, and Tim Kraska. 2008. Building a database on S3. In Proceedings of the 2008 ACM SIGMOD international conference on Management of data (SIGMOD '08). ACM, New York, NY, USA, 251-264. DOI=10.1145/1376616.1376645 
+   http://doi.acm.org/10.1145/1376616.1376645
+   
+   Donald Kossmann, Tim Kraska, and Simon Loesing. 2010. An evaluation of alternative architectures for transaction processing in the cloud. In Proceedings of the 2010 ACM SIGMOD International Conference on Management of data (SIGMOD '10). ACM, New York, NY, USA, 579-590. DOI=10.1145/1807167.1807231 
+   http://doi.acm.org/10.1145/1807167.1807231
+ 
+   Justin J. Levandoski, David Lomet, Mohamed F. Mokbel, and Kevin Keliang Zhao, Deuteronomy: Transaction Support for Cloud Data, in Conference on Innovative Data Systems Research (CIDR), www.crdrdb.org, 12 January 2011
+   http://research.microsoft.com/pubs/152654/Deut-TC.pdf
+
+   Spanner -- James C. Corbett, Jeffrey Dean, Michael Epstein, Andrew Fikes, Christopher Frost, JJ Furman, Sanjay Ghemawat, Andrey Gubarev, Christopher Heiser, Peter Hochschild, Wilson Hsieh, Sebastian Kanthak, Eugene Kogan, Hongyi Li, Alexander Lloyd, Sergey Melnik, David Mwaura, David Nagle, Sean Quinlan, Rajesh Rao, Lindsay Rolig, Yasushi Saito, Michal Szymaniak, Christopher Taylor, Ruth Wang, and Dale Woodford. Spanner: Google's Globally-Distributed Database. Proceedings of OSDI'12: Tenth Symposium on Operating System Design and Implementation, Hollywood, CA, October, 2012. Recipient of the Jay Lepreau Best Paper Award.
+   http://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en//archive/spanner-osdi2012.pdf
+  
+
+Failures and Recovery
+=======================
+
+   Availability in globally distributed storage systems
+   http://static.usenix.org/events/osdi10/tech/full_papers/Ford.pdf
+  
+   Eduardo Pinheiro, Wolf-Dietrich Weber and Luiz Andre Barroso. Failure Trends in a Large Disk Drive Population. FAST 2007.
+   http://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en//archive/disk_failures.pdf
+
+   Bianca Schroeder, Garth Gibson. "Understanding failures in petascale computers." Presented at the SciDAC 2007 conference. Journal of Physics: Conf. Ser. 78. 
+   http://www.iop.org/EJ/abstract/1742-6596/78/1/012022
+
+   Theo HŠrder, Andreas Reuter: Principles of Transaction-Oriented Database Recovery. Computing Surveys 15(4): 287-317(1983)
+   http://dl.acm.org/citation.cfm?id=291
+
+   ARIES: A Transaction Recovery Method Supporting Fine-Granularity Locking
+   and Partial Rollbacks Using Write-Ahead Logging
+   http://www.cs.berkeley.edu/~brewer/cs262/Aries.pdf
+
+   Lightweight Recoverable Virtual Memory
+   http://www.cs.berkeley.edu/~brewer/cs262/lrvm.pdf
+
+   Kenneth Salem, Hector Garcia-Molina: Checkpointing Memory-Resident Databases. ICDE 1989: 452-462
+   http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=47249
+
+   Tuan Cao, Marcos Vaz Salles, Benjamin Sowell, Yao Yue, Alan Demers, Johannes Gehrke, Walker White. Fast Checkpoint Recovery Algorithms for Frequently Consistent Applications. SIGMOD 2011, Athens, Greece.
+   http://www.diku.dk/~vmarcos/pubs/CSS_11_paper.pdf
+
+   Russell Sears and Eric Brewer. Stasis: Flexible Transactional Storage. OSDI 2006.
+   http://static.usenix.org/events/osdi06/tech/sears.html
+
+   Diego Ongaro, Stephen M. Rumble, Ryan Stutsman, John K. Ousterhout, Mendel Rosenblum: Fast crash recovery in RAMCloud. SOSP 2011: 29-41
+   http://dl.acm.org/citation.cfm?doid=2043556.2043560
+
+
+
+Query Processing: Classics and Main Memory
+============================================
+
+   Access Path Selection in a Relational Database Management System
+   http://www.cs.berkeley.edu/~brewer/cs262/3-selinger79.pdf
+
+   Goetz Graefe: Query Evaluation Techniques for Large Databases. ACM Comput. Surv. 25(2): 73-170 (1993)
+   http://dl.acm.org/citation.cfm?id=152611
+
+   AlphaSort: A Cache-Sensitive Parallel External Sort
+   http://dl.acm.org/citation.cfm?id=615237 (Kostas changed link to
+   dl.acm.org)
+
+   Leonard D. Shapiro: Join Processing in Database Systems with Large Main Memories. TODS 11(3): 239-264(1986)
+   http://dl.acm.org/citation.cfm?id=6315
+
+   The Architecture of the Dal’ Main-Memory Storage Manager (1997) 
+   http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.56.1220
+
+   Peter A. Boncz, Stefan Manegold, Martin L. Kersten: Database Architecture Optimized for the New Bottleneck: Memory Access. VLDB 1999: 54-65
+   http://dl.acm.org/citation.cfm?id=765238
+
+
+Distribution, Parallelism, and Column Stores
+==============================================
+
+   Chord: A Scalable Peer-to-peer Lookup Service for Internet Applications
+   http://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf
+
+   Scalable, distributed data structures for internet service construction
+   http://www.usenix.org/event/osdi00/full_papers/gribble/gribble.pdf
+
+   Bigtable: A Distributed Storage System for Structured Data
+   http://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en//archive/bigtable-osdi06.pdf  
+
+   Speculative Execution in a Distributed File System
+   http://www.cs.berkeley.edu/~brewer/cs262/speculator-nightingale.pdf
+
+   bLSM: a general purpose log structured merge tree
+   http://dl.acm.org/citation.cfm?id=2213862
+
+   Lothar F. Mackert, Guy M. Lohman: R* Optimizer Validation and Performance Evaluation for Distributed Queries. VLDB 1986: 149-159
+   http://www.google.dk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CDsQFjAA&url=http%3A%2F%2Fwww.dis.unal.edu.co%2Fprofesores%2Feleon%2Fcursos%2FarquitecturaBD%2Farticulos%2FROptimizer.pdf&ei=y_CIUdGjHYitO-uHgOgC&usg=AFQjCNHCiQIaBCHObNFmzTfbIIyPXwqPzQ&bvm=bv.45960087,d.ZWU&cad=rja   
+
+   Parallel database systems: the future of high performance database systems
+   http://www.cs.berkeley.edu/~brewer/cs262/5-dewittgray92.pdf
+
+   Encapsulation of parallelism in the Volcano query processing system
+   http://portal.acm.org/citation.cfm?id=98720
+
+   HadoopDB: An Architectural Hybrid of MapReduce and DBMS Technologies for
+   Analytical Workloads
+   http://cs.brown.edu/courses/cs227/papers/hadoopdb.pdf
+
+   Eric Friedman, Peter Pawlowski, and John Cieslewicz. 2009. SQL/MapReduce: a practical approach to self-describing, polymorphic, and parallelizable user-defined functions. Proc. VLDB Endow. 2, 2 (August 2009), 1402-1413.
+   http://dl.acm.org/citation.cfm?id=1687567
+
+   Ahmad Ghazal, Dawit Yimam Seid, Alain Crolotte, Mohammed Al-Kateb: Adaptive optimizations of recursive queries in teradata. SIGMOD Conference 2012: 851-860
+   http://dl.acm.org/citation.cfm?doid=2213836.2213966
+
+   C-store: a column-oriented DBMS
+   http://dl.acm.org/citation.cfm?id=1083658
+
+   Peter A. Boncz, Marcin Zukowski, Niels Nes: MonetDB/X100: Hyper-Pipelining Query Execution. CIDR 2005: 225-237
+   http://www.cidrdb.org/cidr2005/papers/P19.pdf
+
+   S‡ndor HŽman, Marcin Zukowski, Niels J. Nes, Lefteris Sidirourgos, Peter A. Boncz: Positional update handling in column stores. SIGMOD Conference 2010: 543-554
+   http://dl.acm.org/citation.cfm?doid=1807167.1807227
+ 
+
+Replication
+=============
+
+   Replication (and its dangers) Jim Gray, Pat Helland, Patrick E. O'Neil, Dennis Shasha: The Dangers of Replication and a Solution. SIGMOD Conf. 1996: 173-182
+   http://dl.acm.org/citation.cfm?id=233330
+
+   Fred B. Schneider. 1990. Implementing fault-tolerant services using the state machine approach: a tutorial. ACM Comput. Surv. 22, 4 (December 1990), 299-319. DOI=10.1145/98163.98167 
+   http://doi.acm.org/10.1145/98163.98167
+
+   Michael J. Fischer, Nancy A. Lynch, and Michael S. Paterson. 1985. Impossibility of distributed consensus with one faulty process. J. ACM 32, 2 (April 1985), 374-382. DOI=10.1145/3149.214121 http://doi.acm.org/10.1145/3149.214121
+   http://dl.acm.org/citation.cfm?doid=3149.214121
+
+   Paxos Made Simple
+   http://research.microsoft.com/users/lamport/pubs/paxos-simple.pdf
+
+
+Adaptive Query Processing, Streams, and Agile Views
+=====================================================
+
+   Ron Avnur and Joseph M. Hellerstein. 2000. Eddies: continuously adaptive query processing. In Proceedings of the 2000 ACM SIGMOD international conference on Management of data (SIGMOD '00). ACM, New York, NY, USA, 261-272. DOI=10.1145/342009.335420 
+   http://dl.acm.org/citation.cfm?id=335420
+  
+   Lottery Scheduling: Flexible Proportional-Share Resource Management
+   http://www.usenix.org/publications/library/proceedings/osdi/full_papers/waldspurger.pdf
+
+   Daniel J. Abadi, Donald Carney, Ugur ‚etintemel, Mitch Cherniack, Christian Convey, Sangdon Lee, Michael Stonebraker, Nesime Tatbul, Stanley B. Zdonik: Aurora: a new model and architecture for data stream management. VLDB J. 12(2): 120-139 (2003)
+   http://cs.brown.edu/research/aurora/vldb03_journal.pdf
+
+   The Design of the Borealis Stream Processing Engine
+   http://cs.brown.edu/courses/cs227/papers/borealis.pdf
+
+   S4: Distributed Stream Computing Platform
+   http://cs.brown.edu/courses/cs227/papers/s4.pdf
+
+   DBToaster: Agile Views in a Dynamic Data Management System
+   https://database.cs.wisc.edu/cidr/cidr2011/Papers/CIDR11_Paper38.pdf
+
+
+
+******************************* End of list *******************************************
+
+Some of our resources :
+
+http://www.cs.berkeley.edu/~brewer/cs262/ (This has a nice OS spin about it as well)
+http://cs.brown.edu/courses/cs227/
+http://www.cs.cornell.edu/courses/cs632/2001sp/
+
