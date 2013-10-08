@@ -1,299 +1,37 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>DIKU Systems Seminar by skipperkongen</title>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <title>DIKU Systems Seminar by dmslab</title>
   </head>
+
   <body>
-    <div class="wrapper">
-      <header>
-        <h1 class="header">DIKU Systems Seminar</h1>
-        <p class="header">Reading group on systems @DIKU</p>
 
-        <ul>
-          <li class="download"><a class="buttons" href="https://github.com/skipperkongen/diku-systems-seminar/zipball/master">Download ZIP</a></li>
-          <li class="download"><a class="buttons" href="https://github.com/skipperkongen/diku-systems-seminar/tarball/master">Download TAR</a></li>
-          <li><a class="buttons github" href="https://github.com/skipperkongen/diku-systems-seminar">View On GitHub</a></li>
-        </ul>
+    <header>
+      <div class="container">
+        <h1>DIKU Systems Seminar</h1>
+        <h2>Reading group on systems @DIKU</h2>
 
-        <p class="header">This project is maintained by <a class="header name" href="https://github.com/skipperkongen">skipperkongen</a></p>
+        <section id="downloads">
+          <a href="https://github.com/dmslab/diku-systems-seminar/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/dmslab/diku-systems-seminar/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/dmslab/diku-systems-seminar" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
 
-      </header>
-      <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
-      </footer>
+    <div class="container">
+      <section id="main_content">
+        <p>This site will soon be overwritten with the old DIKU systems seminar page.</p>
+      </section>
+    </div>
 
-
-    <section>
-	    <h2>General information</h2>
-
-        <p>Seminar held by and mainly for the systems group at DIKU (subset of APL group). DIKU is the computer science department at the University of Copenhagen. The seminar is led by <a href="http://www.diku.dk/~vmarcos/">Marcos Vaz Salles</a>, and organized by Pimin Konstantin Kefaloukos and <a href="http://www.diku.dk/~bonii">Vivek Shah</a>.</p>
-
-        <p>Minutes and other material such as slides will be collected over time in the <a href="https://github.com/skipperkongen/diku-systems-seminar/">git repository</a>.</p>
-	
-        <p>The papers which are presented are mainly selected from an <a href="https://raw.github.com/skipperkongen/diku-systems-seminar/master/reading-list.txt">initial reading list</a>, and inspired by similar seminars at Brown, Cornell and Berkeley.
-	
-        <p>The seminar is planned a few week ahead by <a href="https://github.com/bonii">Vivek Shah</a> and Pimin Konstantin Kefaloukos (<a href="https://github.com/skipperkongen" class="user-mention">@skipperkongen</a>).</p>
-	
-    </section>
-    <section>
-    <h2>Calendar for seminar meetings</h2>
-
-        <p><strong>Time and place of seminar</strong>: Every Thursday, 13:00-16:00, at <a href="http://goo.gl/maps/53vFM">DIKU (HCØ)</a>.
-        <table style="width:175%">
-          <tr>
-            <th>Date</th><th>Paper category</th><th>Target Paper</th><th>Additional optional readings</th><th>Discussion Leader</th>
-          </tr>
-          <tr>
-            <td>Thursday, May 30 2013</td>
-            <td>Replication</td>
-            <td><a href="http://dl.acm.org/citation.cfm?id=233330">The Dangers of Replication and a Solution</a></td>
-            <td></td>
-            <td>Kostas</td>
-          </tr>
-          <tr>
-            <td>Thursday, Jun 6 2013</td>
-            <td>Replication, Consensus, Fault Tolerance</td>
-            <td>
-			  <p>
-				Main paper is <a href="http://research.microsoft.com/users/lamport/pubs/paxos-simple.pdf">Paxos Made Simple</a> (ACM SIGACT '01). A <a href="http://youtu.be/s66GsKmU7kg">short video on Paxos</a> (6 min). 
-			  </p>
-			  <p> 
-			  Related to other papers:
-				<ul>
-				  <li><a href="http://ece842.com/S13/readings/chandra2007.pdf">Paxos Made Live - An Engineering Perspective</a> (PODC '07)</li>
-				  <li><a href="http://dl.acm.org/citation.cfm?id=279229">Part-time Parliament</a>, the original paper for the archaelogists</a> (TOCS '98)</li>
-				  <li><a href="http://dl.acm.org/citation.cfm?id=98167">Implementing fault-tolerant services using the state machine approach: a tutorial</a> (ACM Comput. Surv.'90)</li>
-				  <li><a href="http://dl.acm.org/citation.cfm?id=357176">The Byzantine Generals Problem</a> (TPLS '82)</li>
-                  <li><a href="http://the-paper-trail.org/blog/consensus-protocols-paxos/">A blog commentary on Paxos</a></li>
-                  <li><a href="http://www.inf.usi.ch/faculty/pedone/MScThesis/marco.pdf">Paxos made code</a></li>
-				</ul>
-			  </p>
-            </td>
-            <td>
-			  <p>Systems using Paxos (tentative list):
-				<ul>
-                  <li><a href="http://static.usenix.org/event/usenix10/tech/full_papers/Hunt.pdf">ZooKeeper: wait-free coordination for internet-scale systems</a> (USENIX '10)</li>
-				  <li><a href="http://arxiv.org/abs/1209.3913">Keyspace: A Consistently Replicated, Highly-Available Key-Value Store</a> (Scalien '10)</li>
-				  <li><a href="http://dl.acm.org/citation.cfm?id=1298487">The Chubby lock service for loosely-coupled distributed systems</a> (OSDI '06)</li>
-				  <li><a href="http://dl.acm.org/citation.cfm?id=237157">Petal: distributed virtual disks</a> (SIGOPS '96)</li>
-			    </ul>
-			  </p>              
-            </td>
-            <td>Kostas</td>
-          </tr>
-          <tr>
-            <td><strike>Thursday, Jun 13 2013</strike></td>
-            <td><strike>Replication, Consensus, Fault Tolerance</strike></td>
-            <td>Vivek and Marcos are away </td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Thursday, Jun 20 2013</td>
-            <td>The CAP theorem</td>
-            <td><a href="http://dl.acm.org/citation.cfm?id=564601">Brewer's Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services</a> (ACM SIGACT '02)
-            <p>In light of papers 
-              <ul>
-                <li><a href="http://dl.acm.org/citation.cfm?doid=3149.214121">Impossibility of distributed consensus with one faulty process.</a></li>
-                <li><a href="http://arxiv.org/abs/1109.3370">Effectively Nonblocking Consensus Procedures Can Execute Forever - a Constructive Version of FLP</a></li>
-              </ul>
-            </p>
-            </td>
-            <td>
-			  <p>
-				<ul>
-					<li><a href="http://openstorage.gunadarma.ac.id/~mwiryana/Kuliah/Database/PODC-keynote.pdf">Eric Brewer's PODC Keynote, July 19, 2000</a> (origin of CAP theorem, rightly a conjecture at the time)</li>
-					<li><a href="http://hackingdistributed.com/2013/03/23/consistency-alphabet-soup/">The Consistency Alphabet Soup</a> (E. Gün Sirer, personal blog 2013)</li>
-					<li><a href="http://dbmsmusings.blogspot.dk/2010/04/problems-with-cap-and-yahoos-little.html">Problems with CAP, and Yahoo’s little known NoSQL system</a> (Daniel Abedi, personal blog 2010)</li>
-				</ul>
-			  </p>
-			</td>
-            <td>Kostas</td>
-          </tr>
-          <tr>
-            <td><strike>Thursday, Jun 27 2013</strike></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>Vivek</td>
-          </tr>
-          <tr>
-            <td>Thursday, Jul 4 2013</td>
-            <td>Fault Tolerance, State machine</td>
-            <td><a href="http://dl.acm.org/citation.cfm?id=98167">Implementing fault-tolerant services using the state machine approach: a tutorial, Fred Schneider</a></td>
-            <td></td>
-            <td>Vivek</td>
-          </tr>
-          <tr>
-            <td>Thursday, Jul 25 2013</td>
-            <td>Main memory systems, OLTP</td>
-            <td><a href="http://dl.acm.org/citation.cfm?id=1376713">OLTP through the looking glass, and what we found there</a></td>
-            <td>
-              <p>
-                <ul>
-                  <li><a href="http://dl.acm.org/citation.cfm?id=645925.671662">DBMSs on a Modern Processor: Where Does Time Go?</a></li>
-                  <li><a href="http://www.cs.toronto.edu/vldb04/protected/dbarchVLDB04.pdf">Database architectures for new hardware, a tutorial</a></li>
-                </ul>
-              </p>
-            </td>
-            <td>Vivek</td>
-          </tr>
-          <tr>
-            <td>Wednesday, Jul 31 2013 (from 10AM-1PM)</td>
-            <td>Main memory systems, OLTP</td>
-            <td>
-              <p>
-                <a href="http://dl.acm.org/citation.cfm?id=1325981">The end of an architectural era: (it's time for a complete rewrite)</a><br/>
-                <a href="http://dl.acm.org/citation.cfm?id=1454211">This</a> is the kickoff paper for the <a href="http://hstore.cs.brown.edu/">H-Store project.</a>
-              </p>
-            </td>
-            <td>
-              <p>
-                The critique paper on "One Size fits all" is <a href="http://dl.acm.org/citation.cfm?id=1054024">"One Size Fits All": An Idea Whose Time Has Come and Gone</a><br/>
-                For the sceptics, read the counter paper on classical relational systems. Is there a contradiction here ? 
-                <a href="http://dl.acm.org/citation.cfm?id=2367511">Can the elephants handle the NoSQL onslaught?</a>
-              </p>
-            </td>
-            <td>Vivek</td>
-          </tr>
-          <tr>
-            <td>Thursday, Aug 15 2013</td>
-            <td>Stable storage, disks, failures and scalable
-            internet systems</td>
-            <td>
-              <p>
-                This week we have focus paper on disk failures
-                which
-                is <a href="http://dl.acm.org/citation.cfm?id=1267905">Failure
-                trends in a large disk drive population</a>
-              </p>
-              <p>
-                And we also have a special video lined up on
-                <a href="http://www.youtube.com/watch?v=D09jdbS6oSI">designing systems for internet scalability</a>
-              </p>  
-            </td>
-            <td><a href="http://dl.acm.org/citation.cfm?id=1267904">Disk
-            failures in the real world: what does MTTF of 1000000
-            hours mean to you?</a>
-</td>
-            <td>Kostas</td>
-          </tr>
-          <tr>
-            <td>Thursday, Aug 29 2013</td>
-            <td>Relational databases, classical systems</td>
-            <td>
-              <p>
-                It's time to take a dive into history.<br/>
-                This week we visit the classic paper on how it
-                all started 
-                <a href="http://dl.acm.org/citation.cfm?id=358784">A
-                History and Evaluation of System R</a>.
-              </p>
-              <p>
-                And then we look into the relatively modern next
-                generation system.
-                <a href="http://dl.acm.org/citation.cfm?id=125262">The
-                POSTGRES next generation database management
-                system</a>.
-              </p>
-            </td>
-            <td></td>
-            <td>Vivek</td>
-          </tr>
-          <tr>
-            <td>Thursday, Sep 5 2013</td>
-            <td>Main memory systems, key value stores, Crash
-            Recovery, Durability</td>
-            <td>
-              <p>
-                It's time to look into the RAMCloud project and
-                its crash recovery mechanism.<br/>
-                The paper for discussion is
-                <a href="http://dl.acm.org/citation.cfm?id=2043560">Fast
-                crash recovery in RAMCloud</a>.<br/>
-                An interesting RAMCloud tech talk is <a href="http://www.youtube.com/watch?v=lcUvU3b5co8">here</a>.
-              </p>
-            </td>
-            <td>
-            <p>
-              The introduction paper for the <a href="https://ramcloud.stanford.edu/wiki/display/ramcloud/RAMCloud"> RAMCloud project</a> is
-              <a href="http://dl.acm.org/citation.cfm?id=1965751">
-                The case for RAMCloud</a>.
-            </p>
-            </td>
-            <td>Kostas</td>
-          </tr>
-
-
-          <tr>
-            <td>Thursday, Sep 19 2013</td>
-            <td>Virtualization/Resource isolation</td>
-            <td>
-				<p>
-	                The goal is to understand <a href="www.docker.io">Docker</a> from an academic point of view (good luck with that). We will read and discuss <a href="http://dl.acm.org/citation.cfm?id=1217949">K42: Building a Complete Operating System</a> as the primary paper.</p>
-				<p>
-					Supplemental papers are <a href="http://dl.acm.org/citation.cfm?id=224076">Exokernel: an operating system architecture for application-level resource management</a>, <a href="http://research.microsoft.com/pubs/179978/nsdi13.pdf">Embassies</a>, <a href="http://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en//pubs/archive/34913.pdf">Native Client</a>, <a href="http://mesos.berkeley.edu/mesos_tech_report.pdf">Mesos</a> and <a href="https://www.linode.com/~caker/xen/2003-xensosp.pdf">Xen</a>.
-				</p>              
-            </td>
-            <td>
-				<p>
-		            Understanding <a href="www.docker.io">Docker</a> from a practical perspective: <a href="http://openvz.org/Introduction_to_virtualization">virtualization</a>, <a href="https://github.com/dotcloud/docker/blob/master/README.md">Docker README</a>, <a href="http://blog.dotcloud.com/under-the-hood-linux-kernels-on-dotcloud-part">PaaS under the hood, episode 1: kernel namespaces</a>, <a href="http://blog.dotcloud.com/kernel-secrets-from-the-paas-garage-part-24-c">PaaS Under the Hood, Episode 2: cgroups</a>, <a href="http://aufs.sourceforge.net/aufs.html">aufs − another unionfs</a>, <a href="http://lxc.sourceforge.net/">LXC - chroot on steroids</a>.
-				</p>
-				<p>
-					Some important <a href="http://docs.docker.io/en/latest/terms/">terms</a> used in the Docker-mentation: <a href="http://docs.docker.io/en/latest/terms/image/">images</a>, <a href="http://docs.docker.io/en/latest/terms/container/">container</a>, <a href="http://docs.docker.io/en/latest/terms/layer/">layer</a>, <a href="http://docs.docker.io/en/latest/terms/filesystem/">filesystem</a>.
-				</p>
-            </td>
-            <td>Vivek</td>
-          </tr>
-
-          <tr>
-            <td>Thursday, Sep 26 2013</td>
-            <td>Operating systems, kernel design, resource isolation</td>
-            <td>
-				<p>
-	                This week we look at one of the supplemental
-	                papers of the previous week in detail. We
-	                look at the paper for <a href="http://dl.acm.org/citation.cfm?id=224076">Exokernel: an operating system architecture for application-level resource management</a>
-				</p>              
-            </td>
-            <td>
-              <p>
-              The MIT exokernel <a href="http://pdos.csail.mit.edu/exo/">project page</a>
-              </p>
-            </td>
-            <td>Kostas</td>
-          </tr>
-
-          <tr>
-            <td>Thursday, Oct 3 2013</td>
-            <td>Concurrency control, Optimistic concurrency
-            control algorithms</td>
-            <td>
-				<p>
-	                This week we look at the classic optimistic
-	                concurrency control papers.
-                    <a href="http://dl.acm.org/citation.cfm?id=319567">On
-                    optimistic methods for concurrency control</a>
-				</p>              
-            </td>
-            <td>
-            </td>
-            <td>Vivek</td>
-          </tr>
-
-        </table>
-    </section>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    </div>		
+    
   </body>
 </html>
