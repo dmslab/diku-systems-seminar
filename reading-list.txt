@@ -78,6 +78,12 @@ Concurrency Control
    bLSM: a general purpose log structured merge tree
    http://dl.acm.org/citation.cfm?id=2213862
 
+   Cache craftiness for fast multicore key-value storage
+   http://dl.acm.org/citation.cfm?id=2168855
+
+   Automatic data partitioning in software transactional memories
+   http://dl.acm.org/citation.cfm?id=1378562
+
 Failures and Recovery
 =======================
 
