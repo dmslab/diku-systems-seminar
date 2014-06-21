@@ -236,4 +236,6 @@ Some of our resources :
 http://www.cs.berkeley.edu/~brewer/cs262/ (This has a nice OS spin about it as well)
 http://cs.brown.edu/courses/cs227/
 http://www.cs.cornell.edu/courses/cs632/2001sp/
+http://www.cs.cmu.edu/~pavlo/courses/fall2013/reading-list.html
+http://wiki.epfl.ch/db-reading-group
 
